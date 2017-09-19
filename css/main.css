@@ -1,0 +1,314 @@
+body{
+   	margin: 0px;
+    padding: 0px;
+	min-width: 320px;
+	
+}
+@font-face {
+    font-family:"Montserrat"; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:"Roboto Light"; /* Гарнитура шрифта */
+    src: url(../fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+   }  
+header{
+	color: white;
+	margin-bottom: 35px;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: "Montserrat";
+	max-width:320px;
+	margin: 0 auto;
+}
+h2{
+	color:#333333;
+	font-family: "Montserrat";
+	font-size: 22px;	
+	text-align: center;
+	margin-top: 30px;
+}
+h3{
+	font-family: "Montserrat";
+	font-size: 20px;
+}
+header{
+	background: url(../img/head_desktop.png) center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    height: 542px;
+    position: relative;
+}
+
+.head-max-width{
+	max-width:230px;
+	margin: 15px auto;
+}
+
+.wrapper{
+	max-width: 479px;
+	margin: 0 auto;
+}
+
+nav{	
+    width: 100%;
+    text-align: center;
+}
+nav p{
+	font-family: "Roboto Light";
+	font-size: 18px;
+}
+.font-color{
+	color:#666666;
+}
+
+.menu{
+    list-style-type: none;  
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.head-link{
+	border:2px solid #ffffff;
+	border-radius: 30px;
+	padding: 20px 0;
+}
+.head-link a{
+    padding: 10px 0;
+}
+.menu li{
+    display: inline-block;
+    cursor:pointer;
+    padding: 10px 15px;
+    font-family: "Montserrat";
+}
+
+a{  
+	text-decoration: none; 
+	color: #ffffff;
+}
+.white_link{
+	color: #ff4e50;
+}	
+ul{
+	padding: 0;
+}
+.btn-link{
+	background-color:#ff4e50;
+	width: 280px;
+	height: 40px;
+	border:none;
+	border-radius: 30px;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 50px;
+}
+
+.verticlal-align{
+    padding: 70px 15px 15px;
+}
+.verticlal-align p{
+	margin: 10px 0;
+}
+.verticlal-align1{
+    padding: 75px 15px 15px;
+}
+
+.how_do{
+	width: 300px;
+	height: 240px;
+	margin: 10px auto;
+	position: relative;
+	color: #ffffff;	
+}
+.how_do p{
+    font-family:"Montserrat";
+    font-size: 24px; 
+    
+}
+.how_do span{
+	font-family: "Roboto Light";
+	font-size: 14px;
+}
+.how_do1{
+	background-image: url(../img/step-1.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+.how_do2{
+	background-image: url(../img/step-2.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+.how_do3{
+	background-image: url(../img/step-3.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn-link-step{
+	background-color: #ff4e50;
+	width: 75px;
+	height: 20px;
+	padding: 1px 10px;
+	border:none;
+	border-radius: 30px;
+	font-size: 10px;
+	color: #ffffff;
+	font-family: "Montserrat";
+}
+
+
+.partners{
+	width: 260px;
+	margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color:black;
+}
+.font-color{
+	max-width: 215px;
+	margin: 0 auto 30px;
+}
+.face p:first-of-type{
+	color: #333333;
+	font-family: "Montserrat";
+}
+.btn-link-white{
+	margin-top: 15px;
+	background-color: #ffffff;
+	width: 280px;
+	height: 40px;
+	border:2px solid #ff4e50;
+	border-radius: 30px;
+	font-size: 16px;
+	color: #ff4e50;
+	padding: 8px 70px;
+}
+
+.holliday-activity{
+	width: 300px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;	
+	text-align: center;
+	color:#ffffff;
+	font-family: "Montserrat";
+    font-size: 22px;
+}
+.holliday-activity p{
+    padding-top: 50px;
+    margin-left: 0;
+}
+.holliday-activity_p p{
+	padding-top: 35px;
+}
+.holliday-activity1{
+	background-image: url(../img/hollidayideas-1.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.holliday-activity2{
+	background-image: url(../img/hollidayideas-2.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.holliday-activity3{
+	background-image: url(../img/hollidayideas-3.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.holliday-activity4{
+	background-image: url(../img/hollidayideas-4.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.holliday-activity5{
+	background-image: url(../img/hollidayideas-5.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.holliday-activity6{
+	background-image: url(../img/hollidayideas-6.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.holliday-activity7{
+	background-image: url(../img/hollidayideas-7.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+.form{
+	width: 320px;
+	text-align: center;
+	margin: 0 auto;
+}
+.align-center p{
+	color:#696969;
+	font-family: "Roboto Light";
+	font-size: 18px;
+}
+.input{
+	width: 280px;
+	height: 40px;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+.border-line{
+	margin-top: 40px;
+	text-align: center;
+    background:#ff4e50;
+    border:none;
+    height:4px;
+}
+footer{
+	text-align: center;
+}
+h4{
+	margin-top: px;
+	color:#333333;
+}
+.h1_foot{
+	color: #ff4e50;
+	font-family: Montserrat;
+}
+.menu_footer li a{
+	color: #8f8f8f;
+	list-style-type: none;
+}
+.menu_footer li{
+	padding-right: 10px;
+    display: inline-block; 
+}
+.footer-logo{
+	padding-bottom:15px;
+}

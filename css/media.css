@@ -1,0 +1,472 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+  	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+   
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+    body{
+   	margin: 0px;
+    padding: 0px;
+}
+header{
+	height: 700px;
+}
+ h1{
+ 	font-size: 52px;
+ 	max-width: 500px;
+ 	margin: 170px auto 0;
+ }
+ h2{
+ 	margin-top: 80px;
+ 	margin-bottom: 35px;
+ }
+ .head-max-width{
+ 	max-width: 400px;
+ 	margin-bottom: 35px;
+ 	font-size: 24px;
+ }
+.wrapper{
+	max-width: 768px;
+	position: relative;
+}
+nav{	
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.head_left{
+	text-align: left;
+	margin-left: 40px;
+	margin-top: -140px;
+	margin-bottom: 127px;
+}
+.menu ul{
+	text-align: right;
+	margin-right: 40px;
+}
+.btn-link{
+	font-size: 14px;
+	padding: 10px 15px;
+}
+.article{
+	width: 737px;
+	margin: 0 auto;
+}
+.how_do{
+	width: 236px;
+	height: 401px;
+	position: relative;	
+	display: inline-block;
+	vertical-align: bottom;
+}
+.verticlal-align{
+	padding: 210px 15px 15px;
+}
+.verticlal-align1{
+    padding: 230px 15px 15px;
+}
+.how_do1{
+	background: url(../img/step-1-desktop.png) center center;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.how_do2{
+	background: url(../img/step-2-desktop.png) center center;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.how_do3{
+	background: url(../img/step-3-desktop.png) center center;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn-link-white{
+	width: 190px;
+	margin-bottom: 100px;
+}
+.partners{
+   width: 767px;
+}
+.imag{
+	max-width: 550px;
+	margin: 0 auto;
+}
+.face{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.face1{
+	margin-right: 65px;
+}
+.face3{
+	margin-right: 65px;
+}	
+
+.form{
+	width: 768px;
+}
+.holliday-activity{
+	display: inline-block;
+	margin-right: 7.5px;
+	margin-left: 7.5px;
+	margin-bottom: 15px;
+	vertical-align: bottom;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 22px;
+}
+.holliday-activity p{
+    padding-top: 120px;
+    margin-left: 0;
+}
+.holliday-activity_p p{
+	padding-top: 107px;
+}
+
+.input{
+	width: 235px;
+	height: 35px;
+}
+
+.holliday-activity1{
+	background-image: url(../img/hollidayideas-1-768.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 236px;
+    height: 311px;
+}
+.holliday-activity2{
+	background-image: url(../img/hollidayideas-2-768.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 236px;
+    height: 311px;
+}
+.holliday-activity3{
+	background-image: url(../img/hollidayideas-3-768.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 236px;
+    height: 311px;
+}
+.holliday-activity4{
+	background-image: url(../img/hollidayideas-4-768.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 236px;
+    height: 311px;
+}
+.holliday-activity5{
+	background-image: url(../img/hollidayideas-5-768.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 492px;
+    height: 311px;
+}
+.holliday-activity6{
+	background-image: url(../img/hollidayideas-6-768.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 492px;
+    height: 311px;
+}
+.holliday-activity7{
+	background-image: url(../img/hollidayideas-7-768.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 236px;
+    height: 311px;
+}
+
+footer{
+	max-width: 768px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.h1_foot{
+	margin-left: 40px;
+}
+.h4-1{
+	margin-left: 250px;
+	margin-top: -34px;
+}
+.h4-2{
+	margin-left: 450px;
+	margin-top: -142px;
+}
+.menu_footer li{
+	display: block;
+	text-align: left;
+	margin-left: 250px;
+	margin-bottom: 5px;
+}
+
+.footer-logo{
+	float: right;
+	margin-top: -35px;
+	margin-right: 40px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1440px) {
+    .wrapper{
+	max-width: 1400px;
+   
+}
+h1{
+	font-size: 52px;
+	
+}
+.btn-link{
+	width: 236px;
+	font-size: 14px;
+}
+.head_left{
+	margin-left: 250px;
+}
+.menu ul{
+	margin-right: 200px;
+}
+.article{
+	width: 944px;
+}
+.how_do{
+	width: 300px;
+	height: 401px;
+}
+.how_do1{
+	
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.how_do2{
+	background-image: url(../img/step-2-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.how_do3{
+	background-image: url(../img/step-3-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.partners{
+	width: 1440px;
+}
+.imag{
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.face{
+    display: inline-block;
+    margin-right: 20px;
+}
+.form{
+	width: 954px;
+}
+.holliday-activity{
+	display: inline-block;
+	margin-bottom: 15px;
+	vertical-align: bottom;
+	text-align: center;
+	font-size: 22px;
+}
+.holliday-activity1{
+	background-image: url(../img/hollidayideas-1-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 300px;
+    height: 307px;
+}
+.holliday-activity2{
+	background-image: url(../img/hollidayideas-2-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 300px;
+    height: 307px;
+}
+.holliday-activity3{
+	background-image: url(../img/hollidayideas-3-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 300px;
+    height: 307px;
+}
+.holliday-activity4{
+	background-image: url(../img/hollidayideas-4-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 300px;
+    height: 307px;
+}
+.holliday-activity5{
+	background-image: url(../img/hollidayideas-5-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 620px;
+    height: 307px;
+}
+.holliday-activity6{
+	background-image: url(../img/hollidayideas-6-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 620px;
+    height: 307px;
+}
+.holliday-activity7{
+	background-image: url(../img/hollidayideas-7-desktop.png);
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    width: 300px;
+    height: 307px;
+}
+footer{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.footer-logo{
+	float: right;
+	margin-top: -35px;
+	margin-right: 40px;
+}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
